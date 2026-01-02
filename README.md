@@ -61,7 +61,10 @@ GymBackEnd/
      ```
 5. **Build and start the project:**
    - Run: `mvnw spring-boot:run` or `mvn spring-boot:run`
-
+   - Access the API at `https://localhost:8080`
+   - Use tools like Postman to test the endpoints.
+   - Ensure your database is running and accessible.
+   - Check logs for any errors during startup.
 ## API Endpoints
 The project provides REST API endpoints for CRUD operations for users, trainers, equipment, classes, workout plans, and login. See the controller classes for details.
 
@@ -69,8 +72,6 @@ The project provides REST API endpoints for CRUD operations for users, trainers,
 - Check that keystore.p12 and application.properties are configured correctly.
 - Review log messages for errors.
 
-## Contact and Contributions
-For questions or contributions, contact the development team or create a pull request.
 
 ## License
-See `spring.licens.txt` for license information and guidance.
+I have licens locally, contact me for more information.
